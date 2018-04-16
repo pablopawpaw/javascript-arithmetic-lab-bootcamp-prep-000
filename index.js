@@ -23,3 +23,4 @@ makeInt('asdf',10)
 function preserveDecimal(n) {
   return parseFloat(n)
 }
+preserveDecimal('asdf')
