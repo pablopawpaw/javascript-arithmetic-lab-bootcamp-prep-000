@@ -36,4 +36,4 @@ console.log(number)
 divideBy3()
 console.log(number)
 
-console.log(parseInt('nonsense!',10))
+console.log(parseInt('2',100))
