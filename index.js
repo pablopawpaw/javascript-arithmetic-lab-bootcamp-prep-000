@@ -37,3 +37,4 @@ divideBy3()
 console.log(number)
 
 console.log(parseInt('2',10))
+console.log(parseFloat('80.123999'))
