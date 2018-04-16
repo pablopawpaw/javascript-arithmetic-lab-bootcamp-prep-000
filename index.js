@@ -1,40 +1,25 @@
-console.log(1 + 80)
-console.log(60 - 40)
-console.log(2 * 3.4)
-console.log(5.0 / 2.5)
-
-var number = 5
-number++
-console.log(number)
-number--
-console.log(number)
-
-number = 5
-number += 3
-console.log(number)
-number -= 2
-console.log(number)
-number *= 10
-console.log(number)
-number /= 5 
-console.log(number)
-
-var number = 10
-function add5() {
-  number +=5
+function add(a,b) {
+  return a + b 
 }
-function divideBy3() {
-  number /=3
+function subtract(a,b) {
+  return a - b
 }
-divideBy3()
-console.log(number)
-add5()
-console.log(number)
-number = 10
-add5()
-console.log(number)
-divideBy3()
-console.log(number)
-
-console.log(parseInt('2',10))
-console.log(parseFloat('80.123999'))
+function multiply(a,b) {
+  return a * b
+}
+function divide(a,b) {
+  return a /b
+}
+function inc(n) {
+  return n++
+}
+function dec(n) {
+  return n--
+}
+function makeInt(n) {
+  return parseInt(n,10)
+}
+makeInt('asdf',10)
+function preserveDecimal(n) {
+  return parseFloat(n)
+}
